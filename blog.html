@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 
+    - primary meta tags
+  -->
+  <title>EcoScrap</title>
+  <meta name="title" content="EcoScrap">
+  <meta name="description" content="This is a platform reprsent the network that reduces metal scrap and recycling it">
+
+    <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/logo-black.png" type="image/svg+xml">
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="blog/blog.css">
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+        <div class="container">
+
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo-white.png" width="100" height="24" alt="EcoScrap home" class="logo-light">
+    
+            <img src="./assets/images/logo-black.png" width="100" height="24" alt="EcoScrap home" class="logo-dark">
+          </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                  <a href="#" class="logo">
+                    <img src="./assets/images/logo-white.png" width="74" height="24" alt="Adex home">
+                  </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="index.html" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="about.html" class="navbar-link">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link active">Blog</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:info@email.com" class="contact-link">info@email.com</a>
+
+                    <a href="tel:001234567890" class="contact-link">00 (123) 456 78 90</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <a href="login.html" class="btn btn-primary">Free Trial</a>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <!-- add -->
+<!-- Header Section
+<header>
+  <h1>EcoScrap Network Blog</h1>
+  <p>Your source for metal recycling and sustainability insights</p>
+  <input type="text" id="searchBar" placeholder="Search blog posts..." onkeyup="searchBlog()">
+</header>
+
+ Categories Section 
+<nav>
+  <ul>
+      <li><a href="#" onclick="filterCategory('all')">All</a></li>
+      <li><a href="#" onclick="filterCategory('Recycling')">Recycling</a></li>
+      <li><a href="#" onclick="filterCategory('Sustainability')">Sustainability</a></li>
+      <li><a href="#" onclick="filterCategory('Circular Economy')">Circular Economy</a></li>
+  </ul>
+</nav> -->
+
+<!-- Blog Posts Section -->
+<section id="blogPosts" p>
+  <div class="post" data-category="Recycling">
+      <h2>The Importance of Metal Recycling</h2>
+      <p>Metal recycling helps reduce energy consumption and supports sustainability goals...</p>
+      <a href="https://axil-is.com/blogs-articles/five-reasons-why-its-important-to-recycle-metals/#:~:text=To%20preserve%20natural%20resources.,top%20contributor%20to%20climate%20change.">Read More</a>
+  </div>
+
+  <div class="post" data-category="Sustainability">
+      <h2>How Metal Reuse Promotes Sustainability</h2>
+      <p>Metal reuse is a key pillar of sustainability, conserving resources for future generations...</p>
+      <a href="https://www.ptmetals.com/blog/why-metal-recycling-is-sustainable/#:~:text=Metal%20recycling%20is%20Mother%20Nature's,make%20new%20stuff%20from%20scratch.">Read More</a>
+  </div>
+
+  <div class="post" data-category="Circular Economy">
+      <h2>The Role of Metal in the Circular Economy</h2>
+      <p>Understanding how metals play a role in the circular economy can reshape the future...</p>
+      <a href="https://www.enicor.co.uk/unlocking-the-benefits-of-metal-recycling-in-the-circular-economy/#:~:text=Reducing%20Environmental%20Footprint%3A,carbon%20emissions%20and%20energy%20consumption.">Read More</a>
+  </div>
+
+  <div class="post" data-category="Recycling">
+      <h2>5 Tips for Efficient Metal Recycling</h2>
+      <p>Learn how you can recycle metals more efficiently to save energy and promote eco-friendly practices...</p>
+      <a href="https://www.actionmetalsrecyclers.com/blog/5/">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Sustainability through resource conservation and energy efficiency</h2>
+      <p>This article highlights how scrap metal recycling plays a critical role in conserving natural resources...</p>
+      <a href="https://greencleanguide.com/the-environmental-impact-of-scrap-metal-recycling/">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Turning scrap into a sustainable future</h2>
+      <p>This blog delves into how recycling metals significantly reduces CO₂ emissions and conserves natural resources...
+      <a href="https://blog.metaloop.com/advantages-to-metal-scrap-recycling-environmental-impact">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Turning waste into reusable materials for a greener planet</h2>
+      <p>Learn how you can recycle metals more efficiently to save energy and promote eco-friendly practices...</p>
+      <a href="https://www.benfleetscrap.co.uk/a-comprehensive-guide-to-metal-recycling-turning-scrap-into-sustainability">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Recycling for a Greener Future</h2>
+      <p>This blog by Botany Scrap Metal highlights how recycling scrap metal reduces energy consumption...</p>
+      <a href="https://botanyscrapmetal.net/the-environmental-benefits-of-scrap-metal-recycling/">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Turning Waste into Value</h2>
+      <p>Gulf Coast Scrap Metal explains how recycling scrap metals like aluminum, copper, and steel reduces waste in...</p>
+      <a href="https://www.gulfcoastscrapmetal.com/">Read More</a>
+  </div>
+  <div class="post" data-category="Recycling">
+      <h2>Eco-Friendly Projects Through Scrap Metal Recycling</h2>
+      <p>LGreen and Prosperous delves into how using scrap metal reduces the carbon footprint of businesses and projects...</p>
+      <a href="https://www.greenandprosperous.com/blog">Read More</a>
+  </div>
+  
+</section>
+
+
+    <!-- add done -->
+    
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo">
+          <img src="assets/images/logo-white.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2024 EcoScrap. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Moonshine .14/05 Mayur Vihar, New Delhi, India
+          </address>
+        </li>
+
+        <li>
+          <a href="ecoscrap@email.com" class="footer-link">ecoscrap@email.com</a>
+        </li>
+
+        <li>
+          <a href="tel:001234567890" class="footer-link">+91 (123) 456 78 90</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="about.html" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="index.html" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Terms of Use</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="blog/blog.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

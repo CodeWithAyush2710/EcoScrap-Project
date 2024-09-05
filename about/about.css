@@ -1,0 +1,138 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    background-color: hsla(234, 50%, 64%, 1);
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+.aboutHead {
+    margin-top: 100px;
+    background-color: white;
+    color: rgba(2, 2, 61, 0.836);
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+/* Mission and Vision section */
+.mission-vision {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 50vh;            /* Full viewport height */
+    text-align: center;       /* Center text alignment */
+    background-color: #f9f9f9;
+}
+
+.mission-vision .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;                /* Add spacing between Mission and Vision */
+}
+
+.mission, .vision {
+    width: 40%;
+}
+
+.mission-vision h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.mission-vision p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+/* Journey Timeline section */
+.journey {
+    padding: 50px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.journey h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.timeline {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.timeline-item {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.timeline-item h3 {
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+/* Team section */
+.team {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.team h2 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.member h3 {
+    color: #333;
+}
+
+.member p {
+    font-size: 1.1em;
+    color: #666;
+}
+
